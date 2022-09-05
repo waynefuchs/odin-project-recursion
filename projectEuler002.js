@@ -6,3 +6,4 @@ for(let fibLast=0, fibThis=1, fibNext=0;
     fibNext = fibLast + fibThis;
 }
 console.log(`Even Fibonacci Numbers Under 4M: ${fib}`);
+console.log(`Sum: ${fib.reduce((x,total)=>total+=x,0)}`);
